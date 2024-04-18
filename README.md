@@ -1,13 +1,10 @@
 # Gaze-Esitimation-Demo
-First of all, please use environment.txt to set up the environment required for running the program.
-
-If you want to run the program locally on your computer : simply execute `python main.py` in the command line. 
-
+First of all, please use environment.txt to set up the environment required for running the program.<br><br><br>
+If you want to run the program locally on your computer : simply execute `python main.py` in the command line. <br><br><br>
 If you prefer to offload the neural network computations to a GPU server : <br>
 1.First, replace the `server_host` value in `useServer.py` on line 124 with your server's IP address. The default IP address is set to `10086`, but you can change it accordingly. <br>
 2.Then, start the server by running `python main.py --IsUseServer 1` to begin listening on port `10086`. <br>
-3.Finally, execute `python main.py --IsUseServer 1` on your local machine to establish a connection with the server for data transmission.
-
+3.Finally, execute `python main.py --IsUseServer 1` on your local machine to establish a connection with the server for data transmission.<br><br><br>
 In our development, we leverage insights from both academic research and existing implementations, such as the gaze estimation techniques discussed by Huang et al. (2023) and the GazeML_torch implementation on GitHub.
 
 ## References
