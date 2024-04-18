@@ -7,7 +7,8 @@ If you prefer to offload the neural network computations to a GPU server : <br>
 2. Then, start the server by running `python main.py --IsUseServer 1` to begin listening on port `10086`. <br>
 3. Finally, execute `python main.py --IsUseServer 1` on your local machine to establish a connection with the server for data transmission.<br><br><br>
 
-In our development, we leverage insights from both academic research and existing implementations, such as the gaze estimation techniques discussed by Huang et al. (2023) and the GazeML_torch implementation on GitHub.
+In our development, we leverage insights from both academic research and existing implementations, such as the gaze estimation techniques discussed by Huang et al. (2023) and the GazeML_torch implementation on GitHub.<br><br><br>
+In the end, I want to give big thanks to my bro, Borui. He has put a lot of effort into the deployment of the project and has always been a supportive brother to me. I wish him more and more happiness in his life ahead!
 
 ## References
 
