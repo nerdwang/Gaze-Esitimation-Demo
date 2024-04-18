@@ -1,4 +1,6 @@
 # Gaze-Esitimation-Demo
+First of all, please use environment.txt to set up the environment required for running the program.
+
 If you want to run the program locally on your computer : simply execute `python main.py` in the command line. 
 
 If you prefer to offload the neural network computations to a GPU server : 
